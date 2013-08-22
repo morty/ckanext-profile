@@ -21,6 +21,7 @@ setup(
 	zip_safe=False,
 	install_requires=[
 		# -*- Extra requirements: -*-
+		'repoze.profile==2.0',
 	],
 	entry_points=\
 	"""
