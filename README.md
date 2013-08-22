@@ -10,7 +10,7 @@ directory:
 
 1. `profiling.log`, which can be analyzed with the
    [Python standard library's profilers](http://docs.python.org/2/library/profile.html)
-   (specifically, the [Stats class](docs.python.org/2/library/profile.html#the-stats-class)
+   (specifically, the [Stats class](http://docs.python.org/2/library/profile.html#the-stats-class)
    can be used to analyze the data)
 
 2. `cachegrind.out`, which can be analyzed using the
