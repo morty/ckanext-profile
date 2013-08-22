@@ -4,8 +4,9 @@ ckanext-profile
 
 Add profiling to CKAN using [repoze.profile](https://pypi.python.org/pypi/repoze.profile).
 
-This adds a web page to `/__profile__` where you can view profiling data, and
-also outputs the same data to two files in your CKAN directory:
+This adds a page `/__profile__` to your CKAN site,  where you can view detailed
+profiling data. The same profiling data is also saved to two files in your CKAN
+directory:
 
 1. `profiling.log`, which can be analyzed with the
    [Python standard library's profilers](http://docs.python.org/2/library/profile.html)
