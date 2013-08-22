@@ -24,4 +24,4 @@ Installation
 
 Activate your CKAN virtualenv, then run:
 
-    pip install -e git+https://github.com/seanh/ckanext-profile.git#egg=ckanext-profile
+    pip install -e 'git+https://github.com/seanh/ckanext-profile.git#egg=ckanext-profile'
