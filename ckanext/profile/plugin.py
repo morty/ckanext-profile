@@ -12,7 +12,7 @@ class ProfilePlugin(plugins.SingletonPlugin):
             log_filename='profiling.log',
             cachegrind_filename='cachegrind.out',
             discard_first_request=True,
-            flush_at_shutdown=True,
+            flush_at_shutdown=False,
             path='/__profile__'
         )
         return app
