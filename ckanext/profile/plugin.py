@@ -3,7 +3,7 @@ import ckan.plugins as plugins
 from repoze.profile.profiler import AccumulatingProfileMiddleware
 
 class ProfilePlugin(plugins.SingletonPlugin):
-    plugins.implements(plugins.IMiddleware)
+    plugins.implements(plugins.IMiddleware, inherit=True)
 
     def make_middleware(self, app, config):
         #Profile the app
